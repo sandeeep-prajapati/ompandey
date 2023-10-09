@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main{
+    padding: 0 10px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    
+}
+
+.admin{
+    margin-top: 15px;
+    width: 100%;
+    height: 100vh;
+    
+}
+.head{
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px ;
+}
+
+.head h1{
+    color:white;
+}
+    
+
+.nav{
+    width: 100%;
+    height: 60px;
+    /* margin: auto; */
+    margin-top: 20px;
+    border: 2px solid saddlebrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 15px;
+    gap: 5px;
+    background-color:#a4e4d8 ;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 30px;
+    background-color: rgb(33, 33, 33);
+    border-radius:30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    transition: all ease-in-out .3s;
+    
+}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a:hover{
+    display: flex;
+    background-color: #fff;
+    color: black;
+    /* border: 1px solid black; */
+    box-shadow: 3px 4px black;
+    transition: all ease-in-out .2s;   
+   
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.leftbox{
+    margin-top: 10px;
+    width: 20%;
+    height: 80vh;
+    background-color: #0a466b;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+
+.leftbox h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+    border-radius: 4px;
+}
+#box1{
+    width: 100%;
+    height: 6%;
+    background-color: #FFF;
+}
+#box2{
+    width: 100%;
+    height: 60%;
+    background-color: #FFF;
+}
+#box3{
+    width: 100%;
+    height: 6%;
+    background-color: #FFF;
+}
+#box4{
+    width: 100%;
+    height: 6%;
+    background-color: #FFF;
+}
+
+.leftbox h3{
+    width: 158px;
+    margin: 15px auto;
+}
+
+.rightbox{
+    margin-top:10px ;
+    background-color: #0a466b;
+    padding: 5px 5px;
+    border-radius: 4px;
+    align-items: center;
+    height: 80vh;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rectangle1{
+    overflow: hidden;
+    height: 50%;
+    width: 100%;
+}
+
+.rightbox h3{
+ color: white;
+}
+.rectangle1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.rectangle2 img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rectangle2{
+    margin-top: 5px;
+    overflow: hidden;
+    height: 40%;
+    width: 100%;
+}
+
+.midbox{
+    width: 45%;
+    height: 80vh;
+    background-color: #0a466b;
+    margin: 0 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.dabbaone{
+    width: 100%;
+    height: 20vh;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.subdub{
+    border-radius: 5px;
+    width: 27%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+}
+
+.dabbaone button{
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 5px   ;
+    background-color:  #0080FF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    transition: all ease-in-out .2s;
+}
+
+.dabbaone button:hover{
+    box-shadow: 3px 4px black;
+    transition: all ease-in-out .2s;
+}
+
+.subdubx{
+    border-radius: 5px;
+    width: 55%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+}
+
+.dabbatwo{
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px;
+    background-color: #0a466b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.addsat{
+    width: 39%;
+    height: 95%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.addsat i{
+    font-size: 100px;
+    color: white;
+}
+.addlvl i{
+    font-size: 100px;
+}
+.addlvl{
+    width: 60%;
+    height: 95%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
